@@ -33,15 +33,17 @@ public:
     void gotMessage(ofMessage msg);
 
     bool bEasyCam = false;
+    bool bAutopilot = false;
 
     string lastKey;
     int indexCam = -1;
 
     bool bSwitch;
+    bool bLookAtZero;
 
     ofRectangle rView;
     ofCamera *c;
-
+    string nameCam;
     void drawScene(){
 
         ofPushMatrix();
@@ -80,7 +82,7 @@ public:
 //        ofDrawBox(1);
 
         //axis
-        ofDrawAxis(10);
+        ofDrawAxis(4);
 
         ofPopStyle();
         ofPopMatrix();
