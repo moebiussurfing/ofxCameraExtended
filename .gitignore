@@ -31,3 +31,40 @@ rec/
 exported/
 
 *.tif
+example/example.xcodeproj/xcshareddata/xcschemes/example Release.xcscheme
+example/example.xcodeproj/xcshareddata/xcschemes/example Debug.xcscheme
+example/example.xcodeproj/project.pbxproj
+example/example.vcxproj.user
+example/example.vcxproj.filters
+example/example.vcxproj
+example/example.sln
+example/bin/FreeImage.dll
+example/bin/fmodexL.dll
+example/bin/fmodex.dll
+example/bin/example_debug.pdb
+example/bin/example_debug.lib
+example/bin/example_debug.ilk
+example/bin/example_debug.exp
+example/bin/example_debug.exe
+example/.vs/example/v15/Solution.VC.db
+example/.vs/example/v15/.suo
+example/.idea/xcode.xml
+example/.idea/runConfigurations/example_Debug.xml
+example/.idea/runConfigurations/example_Release.xml
+example/.idea/vcs.xml
+example/.idea/workspace.xml
+example/.idea/example.iml
+example/.idea/modules.xml
+addons/ofxCameraExtended/src/EasyCamera.obj
+addons/ofxCameraExtended/src/FixedCamera.obj
+addons/ofxCameraExtended/src/FollowCamera.obj
+addons/ofxCameraExtended/src/MorphCamera.obj
+addons/ofxCameraExtended/src/OrbitCamera.obj
+example/openFrameworks-Info.plist
+example/icon.rc
+example/Project.xcconfig
+example/Project.xcconfig
+example/openFrameworks-Info.plist
+example/example.xcodeproj/xcshareddata/xcschemes/example Release.xcscheme
+example/example.xcodeproj/xcshareddata/xcschemes/example Debug.xcscheme
+example/example.xcodeproj/project.pbxproj

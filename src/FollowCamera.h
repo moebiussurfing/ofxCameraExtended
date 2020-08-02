@@ -34,7 +34,7 @@ namespace ofxCameraExtended{
         
         ofNode* p_target_node = NULL;
         bool isEasing = false;
-        
+
     public:
         FollowCamera();
         ~FollowCamera();

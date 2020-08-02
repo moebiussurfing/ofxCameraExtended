@@ -10,8 +10,10 @@ class ofApp : public ofBaseApp{
     ofxCameraExtended::MorphCamera morph_cam;
     ofxCameraExtended::FixedCamera fixed_cam;
     ofxCameraExtended::FollowCamera follow_cam;
-    float nearclip = 0.001;
-    float farclip = 1000;
+    //float nearclip = 0.001;
+    //float farclip = 1000;
+	float nearclip = 1;
+	float farclip = 10000;
 
 	public:
 		void setup();
@@ -30,4 +32,34 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+		bool toggleCam = false;
+
+    string lastKey;
+
+	bool bSwitch;
+
+    ofRectangle rView;
+    ofCamera *c;
+
+
+    void drawScene(){
+
+        ofPushMatrix();
+        ofPushStyle();
+
+        //ofDrawGrid(30, 1);
+        ofDrawAxis(10);
+
+        ofSetLineWidth(0.1);
+        ofSetColor(ofColor::blue);
+//        ofTranslate(morph_cam.getGlobalPosition());
+//        ofTranslate(morph_cam.getGlobalPosition());
+        ofNoFill();
+
+        ofSetConeResolution(3, 3, 3);
+        ofDrawCone(1, 2);
+
+        ofPopMatrix();
+        ofPopStyle();
+    }
 };
