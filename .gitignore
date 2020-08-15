@@ -68,3 +68,5 @@ example/openFrameworks-Info.plist
 example/example.xcodeproj/xcshareddata/xcschemes/example Release.xcscheme
 example/example.xcodeproj/xcshareddata/xcschemes/example Debug.xcscheme
 example/example.xcodeproj/project.pbxproj
+example/.vs/example/v15/Solution.VC.db-wal
+example/.vs/example/v15/Solution.VC.db-shm

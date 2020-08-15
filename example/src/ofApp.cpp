@@ -183,7 +183,7 @@ void ofApp::draw()
     ofSetLineWidth(2.0);
     ofSetColor(200);
     ofDrawRectRounded(rView,5);
-    ofDrawBitmapStringHighlight(nameCam, rView.x+10, rView.y+20);
+    ofDrawBitmapStringHighlight("FOLLOW CAM TO " + nameCam, rView.x+10, rView.y+20);
     ofPopStyle();
 
     //--
@@ -195,6 +195,8 @@ void ofApp::draw()
 
     string str;
     str += "CAMERA KEYS\n";
+    str += "SPACE: EASYCAM\n";
+    str += "FOLLOW TO\n";
     str += "0: RESET\n";
     str += "1: ORBIT\n";
     str += "2: MORPH\n";
@@ -205,7 +207,7 @@ void ofApp::draw()
     stringNode = "POSITION: " + ofToString(myNode->getPosition());
 
     ofDrawBitmapStringHighlight(str, 10, 20);
-    ofDrawBitmapStringHighlight("LAST: " + lastKey, 10, 120);
+    ofDrawBitmapStringHighlight("LAST: " + lastKey, 10, 160);
     ofDrawBitmapStringHighlight(stringNode, 300, 20);
 
     //--
