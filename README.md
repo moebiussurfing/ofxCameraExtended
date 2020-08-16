@@ -1,5 +1,8 @@
 # ofxCameraExtended
 
+This is fork from **@moebiusSurfing** with a modified example:  
+![image](capture.PNG?raw=true "image")  
+
 This addon provides some useful cameras which inherit ofCamera.  
 1. OrbitCamera  
 2. MorphCamera  
@@ -17,4 +20,4 @@ https://github.com/arturoc/ofxEasing
 
 ## tested environment
 - macOS Sierra Version 10.12.2, Xcode Version 8.3, openFrameworks 0.9.8
-- Windows10, VisualStudion 2015, openFrameworks 0.9.8
+- Windows10, VisualStudio 2017, openFrameworks 0.11
