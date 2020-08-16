@@ -1,7 +1,7 @@
 # ofxCameraExtended
 
 This is fork from **@moebiusSurfing** with a modified example:  
-![image](capture.PNG?raw=true "image")  
+![image](Capture.PNG?raw=true "image")  
 
 This addon provides some useful cameras which inherit ofCamera.  
 1. OrbitCamera  
